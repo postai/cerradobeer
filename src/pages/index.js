@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-//import pic01 from '../assets/images/grawler_station.jpg'
+import pic01 from '../assets/images/evento_cerradopub.jpg'
 import pic02 from '../assets/images/seriema.jpg'
 import pic03 from '../assets/images/caliandra.jpg'
 import pic04 from '../assets/images/tamandua.jpg'
@@ -29,14 +29,14 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        {/* <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Growler Station</h3>
-                                <p>Em 2017 a Cerrado Beer inovou disponibilizando pelo Distrito Federal a 
-                                    Kombi da Cerrado.</p>
+                        <article style={{backgroundImage: `url(${pic01})`}}>
+                             <header className="major">
+                                <h3>Cerrado Pub</h3>
+                                {/* <p>Em 2017 a Cerrado Beer inovou disponibilizando pelo Distrito Federal a 
+                                    Kombi da Cerrado.</p> */}
                             </header>
-                            {/* <Link to="/landing" className="link primary"></Link>
-                        </article> */}
+                            {/* <Link to="/landing" className="link primary"></Link> */}
+                        </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Seriema</h3>
