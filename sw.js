@@ -26,24 +26,24 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5e0cca545bdde1a45a09.js"
+    "url": "webpack-runtime-c5532a056dd6ac2a9a60.js"
   },
   {
-    "url": "app-8ef85e981b84f2a74bb9.js"
+    "url": "app-37801c0bfb80064c8284.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-2ab347e8ce9c31b0f61b.js"
   },
   {
     "url": "index.html",
-    "revision": "7880ec38da15c185b16ab81d50d86d7e"
+    "revision": "5b47cd2f64ce1c953f8e0bc65f8e6eb8"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "641ea8ea559dd3ec07de64a83091ced1"
+    "revision": "3412565498128135fd47a8ef88ed5213"
   },
   {
-    "url": "0.98a299446dc854d6ab17.css"
+    "url": "0.b0639b305ae1a4cc2b0b.css"
   },
   {
     "url": "0-78c25c89385812757090.js"
@@ -52,14 +52,14 @@ self.__precacheManifest = [
     "url": "component---src-pages-index-js-0ee739aaac03de784faf.js"
   },
   {
-    "url": "1-0fc86a9d2678cb2261a6.js"
+    "url": "1-36a6a38ee5cceea5419e.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js-8e976f25f2b8223223ee.js"
+    "url": "component---src-pages-404-js-b5f7800cb94b07fa2997.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -71,13 +71,13 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2d21c3176ad41f1dcae083024d28555c"
+    "revision": "35dcaafa8cbecb5dc1c983a61c625f16"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cerradobeer/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
