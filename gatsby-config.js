@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/cerradobeer",
+  pathPrefix: "/",
   siteMetadata: {
     title: "Cerrado Beer",
     author: "Postai",
@@ -12,7 +12,7 @@ module.exports = {
       options: {
         name: 'Cerrado Beer',
         short_name: 'Cerrado Beer',
-        start_url: '/cerradobeer',
+        start_url: '/',
         background_color: '#A7A8AA',
         theme_color: '#A7A8AA',
         display: 'minimal-ui',
