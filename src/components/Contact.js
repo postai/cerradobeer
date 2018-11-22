@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+            {/* <section>
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -22,23 +22,33 @@ const Contact = (props) => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
-            </section>
+            </section> */}
             <section className="split">
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-whatsapp"></span>
+                        <h3>Whatsapp</h3>
+                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561999832154">Denilson</a><br />
+                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561981252552">Leonardo</a>
+                    </div>
+                </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="mailto:atendimento@cerrado.beer">atendimento@cerrado.beer</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <h3>Telefones</h3>
+                        <span>(61) 99983 2154 <br />
+                        (61) 98125 2552</span>
+
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
@@ -46,7 +56,7 @@ const Contact = (props) => (
                         Nashville, TN 00000<br />
                         United States of America</span>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
     </section>
