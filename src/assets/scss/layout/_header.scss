@@ -133,9 +133,11 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
-			background-color: transparent;
+			// background-color: transparent;
+			background-color: #a7a8aa61;
 			box-shadow: none;
-			position: absolute;
+			// position: absolute;
+			position: fixed;
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }

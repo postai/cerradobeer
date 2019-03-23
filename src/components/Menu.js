@@ -10,7 +10,8 @@ const Menu = (props) => (
                 {/* <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li> */}
-                <li><Link onClick={props.onToggleMenu} to="#main">Nossas Cervejas</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="#cervejas">Nossas Cervejas</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="#onde">Onde Encontrar</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="#contact">Contato</Link></li>
             </ul>
             {/* <ul className="actions vertical">
