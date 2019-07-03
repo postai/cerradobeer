@@ -26,6 +26,13 @@ const Contact = (props) => (
             <section className="split">
                 <section>
                     <div className="contact-method">
+                        <span className="icon alt fa-shopping-cart"></span>
+                        <h3>Compre Online</h3>
+                        <a href="http://store.cerrado.beer" target="_blank">Cerrado Store</a><br />
+                    </div>
+                </section>
+                <section>
+                    <div className="contact-method">
                         <span className="icon alt fa-whatsapp"></span>
                         <h3>Whatsapp</h3>
                         <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561999832154">Denilson</a><br />
