@@ -35,6 +35,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-whatsapp"></span>
                         <h3>Whatsapp</h3>
+                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561998504451">Delivery</a><br />
                         <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561999832154">Denilson</a><br />
                         <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561981252552">Leonardo</a>
                     </div>

@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <Link to="/" className="logo"><strong>Cerrado Beer</strong></Link>
+        <a href="http://store.cerrado.beer" target="_blank" className="logo"><strong>Compre Online</strong></a>
         <nav>
             <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
         </nav>
