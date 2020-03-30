@@ -18,16 +18,16 @@ const Landing = (props) => (
         <BannerLanding />
 
         <div id="main">
-            
-            <section id="one" className="spotlights">
+
+            <section id="one" className="spotlights"> 
                 <section>
-                    
+
                     <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>Onde</h3>
                             </header>
-                            
+
                             <ul className="actions">
                             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1uNYPzStzG8dfdCvHuiZDHEyviyIYvUm5" width="100%" height="600px"/>
                             </ul>

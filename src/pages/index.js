@@ -10,6 +10,7 @@ import pic03 from '../assets/images/caliandra.jpg'
 import pic04 from '../assets/images/tamandua.jpg'
 import pic05 from '../assets/images/loboguara.jpg'
 import pic06 from '../assets/images/buraqueira.jpg'
+import pic07 from '../assets/images/morcego.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -29,20 +30,20 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="cervejas" className="tiles">
-                        
+
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major2">
                                 <h3></h3>
-                                <p>German Pilsner. Cerveja extra clara, puro malte, com lupulagem equilibrada 
+                                <p>German Pilsner. Cerveja extra clara, puro malte, com lupulagem equilibrada
                                     e presente.</p>
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
-                        
+
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major2">
                                 <h3></h3>
-                                <p>American Brown Ale. Cerveja escura com notas maltadas de caramelo, chocolate e café, 
+                                <p>American Brown Ale. Cerveja escura com notas maltadas de caramelo, chocolate e café,
                                     harmonizam com uma carga generosa de lúpulos aromáticos americanos e ingleses.</p>
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
@@ -51,7 +52,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major2">
                                 <h3></h3>
-                                <p>Vienna lager. Puro malte, clara e equilibrada. Ingredientes clássicos europeus 
+                                <p>Vienna lager. Puro malte, clara e equilibrada. Ingredientes clássicos europeus
                                     com um toque de lúpulos australianos.</p>
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
@@ -59,7 +60,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major2">
                                 <h3></h3>
-                                <p>American Double IPA. Muito lúpulo americano, muito malte e um toque de rapadura do cerrado 
+                                <p>American Double IPA. Muito lúpulo americano, muito malte e um toque de rapadura do cerrado
                                     para acompanhar.</p>
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
@@ -71,6 +72,14 @@ class HomeIndex extends React.Component {
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
+                        <article style={{backgroundImage: `url(${pic07})`}}>
+                            <header className="major2">
+                                <h3></h3>
+                                <p>American IPA, cerveja forte clara, que exala de longe o aroma característico dos lúpulos Citra, Columbus e Cascade.</p>
+                            </header>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
+                        </article>
+
                     </section>
                     <section id="onde">
                         <div className="inner">
