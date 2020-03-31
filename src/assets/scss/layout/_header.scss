@@ -133,8 +133,8 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
-			// background-color: transparent;
-			background-color: #a7a8aa61;
+			background-color: transparent;
+			//background-color: #FFCB03;
 			box-shadow: none;
 			// position: absolute;
 			position: fixed;
