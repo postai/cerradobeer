@@ -11,6 +11,7 @@ import pic04 from '../assets/images/tamandua.jpg'
 import pic05 from '../assets/images/loboguara.jpg'
 import pic06 from '../assets/images/buraqueira.jpg'
 import pic07 from '../assets/images/morcego.jpg'
+import pic08 from '../assets/images/carcara.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -76,6 +77,13 @@ class HomeIndex extends React.Component {
                             <header className="major2">
                                 <h3></h3>
                                 <p>American IPA, cerveja forte clara, que exala de longe o aroma característico dos lúpulos Citra, Columbus e Cascade.</p>
+                            </header>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
+                        </article>
+                        <article style={{backgroundImage: `url(${pic08})`}}>
+                            <header className="major2">
+                                <h3></h3>
+                                <p>Session IPA, cerveja clara, aroma típico dos lúpulos americanos.</p>
                             </header>
                             {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
