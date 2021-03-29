@@ -35,9 +35,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-whatsapp"></span>
                         <h3>Whatsapp</h3>
-                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561998504451">Delivery</a><br />
-                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561999832154">Denilson</a><br />
-                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561981252552">Leonardo</a>
+                        <a href="https://api.whatsapp.com/send?l=pt_br&phone=5561998504451">Contato</a><br />
                     </div>
                 </section>
                 <section>
@@ -52,8 +50,7 @@ const Contact = (props) => (
                         <span className="icon alt fa-phone"></span>
                         <h3>Telefones</h3>
                         <span><a href="tel:+5561998504451">(61) 99850 4451</a><br />
-                        <a href="tel:+556199832154">(61) 99983 2154</a><br />
-                        <a href="tel:+5561981252552">(61) 98125 2552</a></span>
+                        </span>
 
                     </div>
                 </section>
