@@ -49,7 +49,9 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Telefones</h3>
-                        <span><a href="tel:+5561998504451">(61) 99850 4451</a><br />
+                        <span>
+                            <a href="tel:+5561998504451">(61) 99850 4451</a><br />
+                            <a href="tel:+5561998504451">(61) 3264 6582</a><br />
                         </span>
 
                     </div>
