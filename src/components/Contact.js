@@ -56,6 +56,16 @@ const Contact = (props) => (
 
                     </div>
                 </section>
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-book"></span>
+                        <h3>Catálogo</h3>
+                        <span>
+                            <a href="/static/carta_cervejas_digital_11_2020.pdf">Download</a><br />
+                        </span>
+
+                    </div>
+                </section>
                 {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
